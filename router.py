@@ -2,7 +2,7 @@ from typing import Optional, Annotated
 from fastapi import Depends, APIRouter
 
 from repository import TaskRepository
-from schemas import STaskAdd, STask, STaskID
+from schemas import STaskAdd
 
 router = APIRouter(
     prefix="/tasks",
